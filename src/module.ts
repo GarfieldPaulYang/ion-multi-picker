@@ -4,10 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
     exports: [MULTI_PICKER_DIRECTIVES],
-    declarations: [MULTI_PICKER_DIRECTIVES],
-    imports: [
-        BrowserModule
-    ]
+    declarations: [MULTI_PICKER_DIRECTIVES]
 })
 export class MultiPickerModule {
 
